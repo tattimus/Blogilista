@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNvb2xCb3kiLCJpZCI6IjVjNmIxYWM3NWZkZmMzNzc1NTkwNjA1YiIsImlhdCI6MTU1MDUyMzU2Mn0._yEw41f7UECoeP9wpKWUwkW8OcY7lAbBpSe_zau9DhM
+
+{
+    "title": "Cool Blog",
+    "author": "Cool boy",
+    "url": "www.urlToBlog.com",
+    "likes": 500
+}
